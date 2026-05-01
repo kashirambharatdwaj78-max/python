@@ -12,16 +12,3 @@ def max_list(a):
     
 s=max_list(list(map(int,input(' ent list').split(","))))
 print(s)
- 
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
