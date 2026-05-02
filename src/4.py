@@ -1,7 +1,6 @@
 def smallest_2(a):
   for c in a:
-    d=int(a.index(c))+1
-    while d<len(a) and c!=
+    
     
   
     

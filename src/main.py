@@ -1,12 +1,21 @@
 def r_duplicate(a):
+  s=a  
   for c in a:
-    a.remove(c)
-    if c not in a:
-      a.append(c) 
-  print(a)
-r_duplicate("hello")
-      
+    i=0
+    for d in a:
+      if c==d:
+        i+=1
+    for k in range(i-1):
+      s.remove(c)  
+  return s       
+s=r_duplicate(input('ent list:  ').split(","))
+print(s)
       
     
+    
   
+
+
+
+
 
