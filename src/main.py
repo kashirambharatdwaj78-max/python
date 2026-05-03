@@ -1,21 +1,20 @@
-def r_duplicate(a):
-  s=a  
-  for c in a:
-    i=0
-    for d in a:
-      if c==d:
-        i+=1
-    for k in range(i-1):
-      s.remove(c)  
-  return s       
-s=r_duplicate(input('ent list:  ').split(","))
+def prime(a):
+  p=[]
+  if a==2:
+    p.append(a)
+  else:
+    for c in range(2,a+1):
+      for k in range(2,c):
+        if c%k==0:
+          break
+        elif k==c-1:
+          p.append(c)
+  return p
+s=prime(int(input("ent no.")))
 print(s)
       
-    
-    
-  
-
-
-
-
-
+        
+      
+      
+        
+     

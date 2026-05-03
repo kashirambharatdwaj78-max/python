@@ -1,22 +1,7 @@
-def grading(a):
-  s=[]
-  a.append(sum(a)/5)
-  for c in a:
-    if c>90:
-      s.append("A")
-    elif c>80:
-      s.append("B")
-    else:
-      s.append("C")
-  k=s[len(s)-1]
-  s.remove(s[len(a)-1])
-  return s,"TOTAL grades: ",k
-s=grading(list(map(int,input("marks[math,physics,chemistry,optional,english]:    ").split(","))))
-print(s)
-
-  
-  
-
-
-
-
+def force(a,b,c):
+  return round((6.67*10**(-11))*a*b/c**2,2)
+a=float(input("ent mass1:"))
+b=float(input("ent mass2:"))
+c=float(input("ent distance:"))
+s=force(a,b,c)
+print("force is",s,"N")
