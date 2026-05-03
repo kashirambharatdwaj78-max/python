@@ -1,28 +1,28 @@
-import random
-i=0
-o=0
-game=""
-while game!="q":
-  r=random.randint(1,10)
-  g=input("ent q to quit,guess an no. : ")
-  if g=="q":
-    
-  
-    game=g
-    print("points earner: ",i,"no. of trials",o)
+
+def armstrong(a):
+  k=str(a)
+  i=0
+  for c in k:
+    i+=int(c)**len(k)
+  if a==i:
+    return True
   else:
-    o+=1
+    return False
   
-    if int(g)==r:
-      print("correct")
-    
-      i+=10
   
-    else:
-      print("false")
-     
+  
+
+  
+
+  
     
+  
+s=armstrong(int(input("ent no. : ")))
+print(s)
+  
     
+  
+
   
   
   
