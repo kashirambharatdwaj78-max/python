@@ -1,24 +1,35 @@
-#ent an text to get its reverse
-def reverse(a):
-  s=[]
-  for c  in range(len(a)-1,-1,-1):
-    #these range is used to add elements to the above list
-    #in reverse
-  
-    s.append(a[c])
-  p=""
-  i=0
-  while i<len(s):
-    #these add character from reverse list in an varible
-  
-    p=p+s[i]
-    i+=1
-  return p
-  
-s=reverse(input("ent: "))  
-print(s)
+import random
+i=0
+o=0
+game=""
+while game!="q":
+  r=random.randint(1,10)
+  g=input("ent q to quit,guess an no. : ")
+  if g=="q":
     
-
+  
+    game=g
+    print("points earner: ",i,"no. of trials",o)
+  else:
+    o+=1
+  
+    if int(g)==r:
+      print("correct")
+    
+      i+=10
+  
+    else:
+      print("false")
+     
+    
+    
+  
+  
+  
   
 
 
+
+    
+      
+    
