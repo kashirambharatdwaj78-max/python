@@ -1,8 +1,5 @@
 import random
-def Game(a):
-  r=random.choices(("rock","paper","scissors"))
-  i=r[0]
-  
+def Game(a,r):
   if a=="rock":
     if i==a:
       return (a,"vs",i),("results : ","draw")
@@ -27,8 +24,9 @@ def Game(a):
      
     elif i=="paper":
       return (a,"vs",i),("results : ","win")
-  s=Game(input('ent "rock","paper",scissors : '))
-  print(s)
-  i=int(input("ent 0 to end:"))
+r=random.choices(("rock","paper","scissor")
+s=Game(input('ent "rock","paper",scissors : '))
+print(s)
+  
     
     

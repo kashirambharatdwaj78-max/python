@@ -23,13 +23,3 @@ def BULLS(a):
 s=BULLS(input("guess an no."))
 print(s)
       
-    
-        
-        
-    
-      
-      
-    
-  
-    
-  
