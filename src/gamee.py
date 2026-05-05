@@ -32,11 +32,3 @@ def Game(a):
   i=int(input("ent 0 to end:"))
     
     
-      
-    
-    
-  
-    
-  
-  
-    

@@ -4,7 +4,7 @@ i=0
 o=0
 game=""
 while game!="q":
-  r=random.randint(1,10)
+  r=random.randint(0,1)
   g=input("ent q to quit,guess an no. : ")
   if g=="q":
     
