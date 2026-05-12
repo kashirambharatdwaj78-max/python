@@ -28,12 +28,3 @@ def CON(a):
 # these one above just check wether the given  no. in list e or not and then give them 1 or 0 as binary
 print(CON(RAN(int(input("ENT NO.")))))
 
-  
-
-  
-
-  
-  
- 
-  
-  
