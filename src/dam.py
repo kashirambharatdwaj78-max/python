@@ -18,10 +18,3 @@ MOST USED WORD'S ARE
 {t}''')
           
 CON(input("ENT A PARAGRAPH : ").split())
-
-
-
-  
-  
-
-
